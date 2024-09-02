@@ -7,12 +7,12 @@ const Accordion = ({ title, answer }) => {
     <div className="py-2">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full bg-[#daa913] p-4 "
+        className="flex justify-between w-full bg-[#daa913] md:p-4 p-[12px] text-left"
       >
-        <div className="text-neutral-950 font-bold md:text-[18px] text-[16px]">{title}</div>
+        <div className="text-neutral-950 font-bold md:text-[16px] text-[14px]">{title}</div>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
         <svg
-          className="fill-black shrink-0 ml-8"
+          className="fill-black shrink-0 ml-8 mt-[9px]"
           width="16"
           height="16"
           xmlns="http://www.w3.org/2000/svg"

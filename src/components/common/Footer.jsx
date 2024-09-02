@@ -16,144 +16,148 @@ function Footer() {
  
   return (
     <div className='bg-black px-[3vw]'>
-     <div className='flex gap-8 flex-wrap justify-between md:pt-[100px] pt-[50px] pb-[25px]  bg-black'>
+     <div className='flex md:gap-8 gap-[16px] flex-wrap justify-between md:pt-[100px] pt-[50px] pb-[25px] bg-black'>
 
-       <div className='w-[230px]'>
-          <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>Company</h3> <br />
+       <div className='w-fit flex border-red-400'>
+            <div>
+                <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>Company</h3> <br />
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Homepage</p>
-          </a>
+                <a href="http://">
+                  <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Homepage</p>
+                </a>
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>About Us</p>
-          </a>
+                <a href="http://">
+                  <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>About Us</p>
+                </a>
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Services</p>
-          </a>
+                <a href="http://">
+                  <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Services</p>
+                </a>
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Expert Team</p>
-          </a>
+                <a href="http://">
+                  <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Expert Team</p>
+                </a>
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Success Stories</p>
-          </a>
+                <a href="http://">
+                  <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Success Stories</p>
+                </a>
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Testimonials</p>
-          </a>
+                {/* <a href="http://">
+                  <p className='pb-[20px] text-neutral-400 md:text-[16px] text-[14px]'>Testimonials</p>
+                </a>
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Blog</p>
-          </a>
+                <a href="http://">
+                  <p className='pb-[20px] text-neutral-400 md:text-[16px] text-[14px]'>Blog</p>
+                </a>
 
-          <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>More</p>
-          </a> <br />
-
-
-          {/* CONTACT */}
-          <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>Contact</h3> <br />
+                <a href="http://">
+                  <p className='pb-[20px] text-neutral-400 md:text-[16px] text-[14px]'>More</p>
+                </a> <br /> */}
+            </div>
 
 
-          <div className='flex items-center gap-[20px] mb-[10px]'>
-              <FaMapMarkerAlt className='text-yellow-500 text-[20px]'/>
+             {/* CONTACT */}
+            <div>
+                <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>Contact</h3> <br />
 
-                <p className='text-neutral-400'>374 FA Tower, William S Blvd, IL  USA</p>
-          </div>
-
-
-          <div className='flex items-center gap-[20px] mb-[10px]'>
-              <FaPhone className='text-yellow-500 text-[20px]'/>
-
-              <a href="http://">
-                <p className='text-neutral-400'>(+880)155-69569</p>
-              </a>
-          </div>
+              
+                <div className='flex items-center md:gap-[20px] gap-[10px] mb-[10px]'>
+                    <FaMapMarkerAlt className='text-yellow-500  md:text-[20px] text-[18px]'/>
+                      <p className='text-neutral-400 md:text-[16px] text-[14px]'>374 FA Tower, William USA</p>
+                </div>
 
 
-          <div className='flex items-center gap-[20px] mb-[10px]'>
-              <FaEnvelope className='text-yellow-500 text-[20px]'/>
+                <div className='flex items-center md:gap-[20px] gap-[10px] mb-[10px]'>
+                    <FaPhone className='text-yellow-500  md:text-[20px] text-[18px]'/>
 
-              <a href="http://mail to:">
-                <p className='text-neutral-400'>support@rstheme.com</p>
-              </a>
-          </div>
+                    <a href="http://">
+                      <p className='text-neutral-400 md:text-[16px] text-[14px]'>(+880)155-69569</p>
+                    </a>
+                </div>
 
 
-          <div className='flex items-center gap-[20px] mb-[10px]'>
-               <FaClock className='text-yellow-500 text-[20px]'/>
+                <div className='flex items-center md:gap-[20px] gap-[10px] mb-[10px]'>
+                    <FaEnvelope className='text-yellow-500 md:text-[20px] text-[18px]'/>
 
-                <p className='text-neutral-400'> Opening Hours: 8:00 - 18:00</p>
-          </div>
+                    <a href="http://mail to:">
+                      <p className='text-neutral-400 md:text-[16px] text-[14px]'>support@rstheme.com</p>
+                    </a>
+                </div>
 
+
+                <div className='flex items-center md:gap-[20px] gap-[10px] mb-[10px]'>
+                    <FaClock className='text-yellow-500  md:text-[20px] text-[18px]'/>
+
+                      <p className='text-neutral-400 md:text-[16px] text-[14px]'> Opening Hours: 8:00 - 18:00</p>
+                </div>
+             </div>
        </div>
 
 
 
 
+       <div className='flex justify-between'>
        <div className=''>
           <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>What we do</h3><br />
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Web Development</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>Web Development</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Database Management</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>Database <br /> Management</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Product design & UI/UX Design</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>Product design <br /> & UI/UX Design</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Mobile App Development</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>Mobile App <br /> Development</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Software Development</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>Software Development</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>CyberSecurity</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>CyberSecurity</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Project Management</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>Project Management</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Data Analytics</p>
+            <p className='md:pb-[20px] pb-[12px] text-neutral-400 md:text-[16px] text-[14px]'>Data Analytics</p>
           </a><br />
-
+       </div>
 
 
 
           {/* SPECIAL */}
-          <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>Special</h3> <br />
+          <div>
+            <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>Special</h3> <br />
 
               <a href="http://">
-                <p className='text-neutral-400 mb-[15px]'>ChatBot Development</p>
+                <p className='text-neutral-400 md:mb-[15px] mb-[12px] md:text-[16px] text-[14px]'>ChatBot Development</p>
               </a>
 
 
               <a href="http://">
-                <p className='text-neutral-400 mb-[15px]'>SaaS Development</p>
+                <p className='text-neutral-400 md:mb-[15px] mb-[12px] md:text-[16px] text-[14px]'>SaaS Development</p>
               </a>
 
 
               <a href="http://mail to:">
-                <p className='text-neutral-400 mb-[15px]'>Software Testing</p>
+                <p className='text-neutral-400 md:mb-[15px] mb-[12px] md:text-[16px] text-[14px]'>Software Testing</p>
               </a>
 
 
               <a href="http://mail to:">
-                <p className='text-neutral-400 mb-[15px]'>Cloud Infrastructure</p>
+                <p className='text-neutral-400 md:mb-[15px] mb-[12px] md:text-[16px] text-[14px]'>Cloud Infrastructure</p>
               </a>
-
+           </div>
        </div>
 
 
@@ -163,56 +167,56 @@ function Footer() {
           <h3 className='font-bold md:text-[20px] text-[18px] text-yellow-500'>Technology</h3> <br />
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Java, C#, C++, Python, React</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Java, C#, C++, Python, React</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>PHP, Springbooot, Angular</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>PHP, Springbooot, Angular</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>PHP, MySQL, NodeJS, VueJS, CSS</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>PHP, MySQL, NodeJS, VueJS, CSS</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Flutter, Kotlin, Dart, Swift, NuxtJS</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Flutter, Kotlin, Dart, Swift, NuxtJS</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Docker, Kubernetes, Oracle</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Docker, Kubernetes, Oracle</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>RqbbitMQ, ASP.Net, ExpressJS</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>RqbbitMQ, ASP.Net, ExpressJS</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Tableau, R, Ember, AWS, JavaScript</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Tableau, R, Ember, AWS, JavaScript</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>NextJS, Laravel, Azure</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>NextJS, Laravel, Azure</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Firewall, IDS, SSL/TLS, MFA, DLP</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Firewall, IDS, SSL/TLS, MFA, DLP</p>
           </a>
 
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Figma, Adobe XD, Wireframe, LottiesFiles</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Figma, Adobe XD, Wireframe, LottiesFiles</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Jira, Asana, Trello, Slack, Scrumwise</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Jira, Asana, Trello, Slack, Scrumwise</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Ruby on Rails, PostgreSQL, ExpressJS</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Ruby on Rails, PostgreSQL, ExpressJS</p>
           </a>
 
           <a href="http://">
-            <p className='pb-[20px] text-neutral-400'>Apache, Linux, NGINX, & More</p>
+            <p className='md:pb-[20px] pb-[10px] text-neutral-400 md:text-[16px] text-[14px]'>Apache, Linux, NGINX, & More</p>
           </a>
 
        </div>
@@ -227,7 +231,7 @@ function Footer() {
              <p className='text-[12px] bg-yellow-500 font-bold text-black w-[100px] pl-[10px] px-1 md:mt-[-25px] mt-[-20px] mr-[-40px]'>Technologies</p>
           </div> <br />
 
-            <p className='text-neutral-400 mb-[40px]'>MVP Development Cloud9 Solutions specialize in the SME 
+            <p className='text-neutral-400 mb-[40px] md:text-[16px] text-[14px]'>MVP Development Cloud9 Solutions specialize in the SME 
             market and provide the assurance, availability and agility that our Customers value. <br /><br />
              Our Canadian based dedicated team of IT Support professionals are friendly and hands-on, 
              available 24/7 to assist.
@@ -244,11 +248,6 @@ function Footer() {
        </div>
 
 
-       {/* <p className='text-neutral-500 md:text-[15px] text-[14px]'>© {new Date().getFullYear()}. Bematron Technologies a company duly registered with CAC with RC Number: xxxxxxx. All rights reserved.</p><br /> */}
-
-
-      {/* <p className='text-neutral-500 md:text-[15px] text-[14px]'>© {new Date().getFullYear()}. Bematron Technologies a company duly registered with CAC with RC Number: xxxxxxx. All rights reserved.</p><br /> */}
-
     </div>
 
       <div className='text-neutral-500 bg-black mb-[15px]'>
@@ -257,12 +256,6 @@ function Footer() {
         <a href=''>Cookie policy</a>
       </div>
 
-
-
-
-      <button onClick={handleClick} className='text-red-500'>click</button>
-      
-     
 
       <p className='text-neutral-500 md:text-[15px] text-[14px]'>Copyright © {new Date().getFullYear()}. Bematron Technologies a company duly registered with CAC with RC Number: xxxxxxx. All rights reserved.</p><br />
     </div>

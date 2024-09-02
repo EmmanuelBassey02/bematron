@@ -103,7 +103,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                   initial="hidden"
                   animate="visible"
                   transition={{ delay: '0.6', type: 'spring', mass: 0.4, staggerChildren: 0.9 }}
-                  className='md:text-[84px] text-[56px]  text-white font-bold'>IT Solutions <br /> <span className='text-[#daa913] md:text-[90px] text-[36px]'>&</span> Technology
+                  className='md:text-[84px] text-[36px]  text-white font-bold'>IT Solutions <br /> <span className='text-[#daa913] md:text-[90px] text-[36px]'>&</span> Technology
               </motion.h1>
 
 
@@ -117,9 +117,9 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
 
                <Link to="/contact">
                  <motion.button initial={{ x: -250 }}
-                 animate={{ x: -10,  }}     
-                 whileHover={{scale: [1,1.1,1,1.1,1,1.1,1]} }                  
-                 className='h-[50px] w-fit font-bold text-[18px] bg-[#daa913] px-[40px] hover:bg-black hover:text-[#daa913] hover:border-2 hover:border-[#daa913] hover:transition-[all-ease]'>Get a free quote</motion.button></Link>
+                    animate={{ x: -10,  }}     
+                    whileHover={{scale: [1,1.1,1,1.1,1,1.1,1]} }                  
+                    className='md:h-[50px] h-[48px] w-fit font-bold md:text-[18px] text-[15px] bg-[#daa913] md:px-[40px] px-[20px] hover:bg-black hover:text-[#daa913] hover:border-2 hover:border-[#daa913] hover:transition-[all-ease]'>Get a free quote</motion.button></Link>
            </div>
             
         </section>
@@ -131,10 +131,10 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
          <section
          className='w-[100vw] pb-[50px] text-center h-fit m-auto mt-[-80px]'>
            <div className='m-auto w-[98vw] md:p-2 p-1  flex flex-wrap justify-between md:gap-[30px] gap-[20px]'>
-            <div className='section-2-container m-auto hover:border-[1px] border-yellow-600 md:h-[170px] h-[150px] bg-white md:w-fit w-[85%] p-4 shadow'>
-                <div className='gap-4 md:h-[80px] h-[60px] w-[290px] m-auto flex'>
+            <div className='section-2-container m-auto hover:border-[1px] border-yellow-600 md:h-[170px] h-[130px] bg-white md:w-fit w-[85%] p-4 shadow'>
+                <div className='gap-4 md:h-[80px] h-[50px] w-[290px] m-auto flex'>
                     <img src={yellowsvg1} alt="" />
-                    <h2 className='font-bold md:text-[22px] text-[20px] h-fit mt-[15px] '>Innovation</h2>
+                    <h2 className='font-bold md:text-[22px] text-[18px] h-fit mt-[15px] '>Innovation</h2>
                 </div>
 
                 <div className='h-[70px] w-[280px] m-auto  text-left'>
@@ -143,23 +143,23 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
             </div>
 
 
-            <div className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[150px] md:w-fit w-[85%] bg-white p-4 shadow'>
-                <div className='flex gap-4 md:h-[80px] h-[60px] w-[290px] m-auto'>
+            <div className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[130px] md:w-fit w-[85%] bg-white p-4 shadow'>
+                <div className='flex gap-4 md:h-[80px] h-[50px] w-[290px] m-auto'>
                     <img src={yellowsvg2} alt="" />
-                    <h2 className='font-bold md:text-[22px] text-[20px] h-[70px] mt-[5px]'>Reliability <br /> & Security</h2>
+                    <h2 className='font-bold md:text-[22px] text-[18px] h-[70px] mt-[5px]'>Reliability <br /> & Security</h2>
                 </div>
 
 
                 <div className='h-[70px] w-[280px] m-auto text-left'>
-                    <p className='text-[14px] text-neutral-500 mt-[10px] text-left'>Ensuring trust through robust reliability and security measures.</p>
+                    <p className='text-[14px] text-neutral-500 mt-[10px] text-left pr-[10px]'>Ensuring trust through robust reliability and security measures.</p>
                 </div>
             </div>
 
 
-            <div className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[150px] md:w-fit w-[85%] bg-white px-4 p-4 shadow'>
-                <div className='flex gap-4 text-left md:h-[80px] h-[60px] w-[290px] m-auto'>
+            <div className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[130px] md:w-fit w-[85%] bg-white px-4 p-4 shadow'>
+                <div className='flex gap-4 text-left md:h-[80px] h-[50px] w-[290px] m-auto'>
                     <img src={yellowsvg3} alt="" />
-                    <h2 className='font-bold md:text-[22px] text-[20px] h-[70px] mt-[5px] w-[120px]'>Scalability & Growth</h2>
+                    <h2 className='font-bold md:text-[22px] text-[18px] h-[70px] mt-[5px] w-[120px]'>Scalability & Growth</h2>
                 </div>
 
                 <div className='h-[70px] w-[280px] m-auto text-left'>
@@ -259,12 +259,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
     
 
          {/* SECTION - 4 ------ SERVICES WE OFFER  */}
-         <motion.section
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: false }}
-                transition={{ duration: 0.6 }}
-                variants={ScrollRevealVariants}
+         <section
          
          className='px-[5vw] bg-white h-fit pt-[50px] py-[50px] text-center'>
             <h3 className='text-yellow-600 font-bold md:text-[15px] text-[14px] mb-[20px]'>~ OUR COMPREHENSIVE TECH SOLUTIONS ~</h3>
@@ -278,8 +273,8 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                    variants={ScrollRevealVariants}
             
             className='px-[20px] h-fit py-[40px] flex flex-wrap gap-[15px]'>
-                 <div className='border-[1px] border-neutral-300  basis-[255px] flex-grow p-1 h-[320px] m-auto rounded-[10px] shadow'>
-                   
+               
+                 <div className='border-[1px] border-neutral-300  md:basis-[255px] basis-[230px] flex-grow p-1 h-[320px] m-auto rounded-[10px] shadow'>
                    <div className='h-[150px] text-left w-full hover:overflow-hidden'>
                      <img src={web} alt="image" className='h-[inherit] w-[inherit] rounded-[8px] hover:scale-[1.1] hover:transition-[all-linear-0.12s]'/>
                     </div>
@@ -290,7 +285,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
 
 
                  
-                 <div className='border-[1px] border-neutral-300 p-1 basis-[255px] flex-grow h-[320px] m-auto rounded-[10px] shadow'>
+                 <div className='border-[1px] border-neutral-300 p-1 md:basis-[255px] basis-[230px] flex-grow h-[320px] m-auto rounded-[10px] shadow'>
                     
                     <div className='h-[150px] w-full hover:overflow-hidden'>
                       <img src={database} alt="image" className='h-[inherit] w-[inherit] rounded-[8px] hover:scale-[1.1] hover:transition-[all-linear-0.12s]'/>
@@ -303,7 +298,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
 
 
                  
-                 <div className='border-[1px] border-neutral-300 p-1 basis-[255px] flex-grow h-[320px] m-auto rounded-[10px] shadow'>
+                 <div className='border-[1px] border-neutral-300 p-1 md:basis-[255px] basis-[230px] flex-grow h-[320px] m-auto rounded-[10px] shadow'>
                     
                     <div className='h-[150px] w-full hover:overflow-hidden'>
                      <img src={uiux} alt="image" className='h-[inherit] w-[inherit] rounded-[8px] hover:scale-[1.1] hover:transition-[all-linear-0.12s]'/>
@@ -374,7 +369,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                     <div className='flex items-center pt-[10px] text-neutral-700 text-left ml-[15px] text-[14px] font-bold' >see more &nbsp; <FaArrowRight className='text-yellow-600'/></div>
                  </div>
             </motion.div>
-        </motion.section>
+        </section>
 
 
 
@@ -390,13 +385,13 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                        transition={{ duration: 0.6 }}
                        variants={slideInVariants}
                 
-                className='md:py-[50px] py-[25px] md:p-[30px] p-[15px] bg-yellow-600 h-fit w-[400px] m-auto'>
-                    <h3 className='font-bold mb-[10px]'>OUR WORKING PROCESS</h3>
-                    <h1 className='md:text-[35px] text-[26px] font-bold mb-[15px]'>How we work for our customers</h1>
-                    <motion.button
+                className='md:py-[50px] py-[25px] md:p-[30px] p-[15px] bg-yellow-600 h-fit md:w-[400px] w-[300px] m-auto'>
+                    <h3 className='font-bold md:mb-[10px] mb-[5px]'>OUR WORKING PROCESS</h3>
+                    <h1 className='md:text-[35px] text-[26px] md:leading-[45px] leading-[30px] font-bold mb-[15px]'>How we work for our customers</h1>
+                     <motion.button
                          whileHover={{ scale: 1.09, boxShadow: "0px 0px 8px black" }}
-                        className='w-fit h-fit md:px-[16px] px-[10px] md:py-[12px] py-[8px] rounded-[10px] bg-black text-white md:text-[16px] text-[14px] mb-[25px] hover:border-2 hover:border-black hover:bg-transparent hover:text-black hover:h-[49px] hover:font-bold'>SEE MORE</motion.button>
-                    <img src={whychooseus} alt="" />
+                        className='w-fit h-fit md:px-[16px] px-[10px] md:py-[12px] py-[8px] rounded-[10px] bg-black text-white md:text-[16px] text-[14px] mb-[25px] hover:border-2 hover:border-black hover:bg-transparent hover:text-black hover:h-[49px] hover:font-bold'>See more</motion.button>
+                    <img src={whychooseus} alt="" className='md:h-[220px] h-[160px]'/>
                 </motion.div>
 
 
@@ -528,14 +523,14 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
             This collaboration enables us to craft custom software solutions that are both efficient and scalable, catering to diverse.</motion.p><br /><br />
 
             <div className='h-fit flex flex-wrap  justify-center gap-[12px]'>
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] text-center p-2 md:pt-8 pt-[10px] bg-neutral-100 rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px]  hover:bg-neutral-200 hover:border-[1px] text-center p-2 md:pt-8 pt-[10px] bg-neutral-100 rounded-[10px] border-yellow-600 h-[140px] md:h-[180px]  basis-[140px] md:basis-[180px]'>
                     <img src={manufacturing} alt="" className='md:h-[60px] h-[70px] m-auto md:mb-[30px] mb-[20px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold '>Manufacturing</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={logistics} alt="" className='h-[70px] m-auto md:mb-[30px] mb-[20px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold'>Logistics</p>
@@ -545,56 +540,56 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
 
 
 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                 <img src={hitech} alt="" className='h-[60px] m-auto md:mb-[30px] mb-[30px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold'>Hi-tech</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[15px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[15px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={healthcare} alt="" className='h-[60px] m-auto md:mb-[30px] mb-[25px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold'>Healthcare</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                    <img src={education} alt="" className='h-[60px] m-auto md:mb-[30px] mb-[20px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold'>Education</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={media} alt="" className='md:h-[60px] h-[50px] m-auto mb-[13px]'/>
 
                     <p className='md:text-[15px] text-[12px] font-bold'>Media & Entertainment</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px]  p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 rounded-[10px] shadow border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px]  p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 rounded-[10px] shadow border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={fintech} alt="" className='h-[60px] m-auto mb-[30px]'/>  
 
                     <p className='md:text-[15px] text-[13px] font-bold'>FinTech</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 rounded-[10px] shadow border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 rounded-[10px] shadow border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={travel} alt="" className='h-[56px] m-auto md:mb-[30px] mb-[15px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold'>Travel & Hospitality</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={mining} alt="" className='h-[60px] m-auto mb-[30px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold'>Mining</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={construction} alt="" className='md:h-[60px] h-[65px] m-auto md:mb-[20px] mb-[10px]'/>
 
                     <p className='md:text-[15px] text-[12px] font-bold'>Real Estate & Construction</p>
@@ -602,14 +597,14 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
 
                 
              
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                    <img src={ecommerce} alt="" className='md:h-[60px] h-[60px] m-auto md:mb-[30px] mb-[0px]'/>
                   
                     <p className='md:text-[15px] text-[13px] font-bold'>Retail & E commerce</p>
                 </div>
 
                 
-                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-fit md:h-[180px] basis-[140px] md:basis-[180px]'>
+                <div className='border-b-[8px] hover:bg-neutral-200 hover:border-[1px] p-2 md:pt-8 pt-[10px] text-center bg-neutral-100 shadow rounded-[10px] border-yellow-600 h-[140px] md:h-[180px] basis-[140px] md:basis-[180px]'>
                     <img src={utilities} alt="" className='md:h-[60px] h-[55px] m-auto md:mb-[10px] mb-[5px]'/>
 
                     <p className='md:text-[15px] text-[13px] font-bold'>Utilities & On-demand</p>
@@ -905,7 +900,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
 
 
           {/* Have an idea or project? */}
-          <motion.section
+          <section
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false }}
@@ -930,29 +925,25 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                       variants={ScrollRevealVariants}
                 
                 className='h-fit md:w-[550px] w-[100%] m-auto text-center rounded-[12px] p-[10px] bg-slate-800 py-[25px]'>
-                    <h3 className='text-[#daa913] font-bold md:text-[40px] text-[28px] mb-[20px]'>Tell us about your project</h3>
-                    <p className='text-[18px] text-neutral-400 mb-[30px]'>"Got an idea or project in mind? Reach out to us today or schedule an appointment.
+                    <h3 className='text-[#daa913] font-bold md:text-[40px] text-[26px] mb-[20px]'>Tell us about your project</h3>
+                    <p className='md:text-[18px] text-[15px] text-neutral-400 mb-[30px]'>"Got an idea or project in mind? Reach out to us today or schedule an appointment.
                     Our dedicated representatives are standing by to assist you, and we'll get back to you promptly!"</p>
   
 
                     <div className='flex flex-wrap items-center justify-evenly '>
-                       <span className='p-4 rounded-[15px] bg-black flex items-center gap-[20px]  text-neutral-400 md:border-none border-[1px] border-neutral-700'>
+                       <span className='md:p-4 p-[12px] rounded-[15px] bg-black flex items-center gap-[20px]  text-neutral-400 md:border-none border-[1px] border-neutral-700'>
                           <a href='https://wa.me/=2349017105774'> <FaWhatsapp className='md:text-[52px] text-[24px] text-neutral-400'/></a>
                           <a href='https://wa.me/+2349017105774'> <p className='hover:underline hover:text-[#daa913]'>+234 901 710 5774</p></a>
                         </span> 
 
 
-                        <span className='p-4 rounded-[15px] bg-black flex items-center gap-[20px]  text-neutral-400 md:border-none border-[1px] md:mt-0 mt-[15px] border-neutral-700'>
+                        <span className='md:p-4 p-[12px] rounded-[15px] bg-black flex items-center gap-[20px]  text-neutral-400 md:border-none border-[1px] md:mt-0 mt-[15px] border-neutral-700'>
                           <a href='https://t.me/Emmyquincy2'> <FaTelegram className='md:text-[52px] text-[24px] text-neutral-400'/></a>
                           <a href='https://t.me/Emmyquincy2'> <p className='hover:underline hover:text-[#daa913]'>+234 901 710 5774</p></a>
                         </span> 
                     </div>
-
-
-
-                    {/* <button className='text-white'> Let's Talk </button> */}
                 </motion.div>
-          </motion.section>
+          </section>
 
 
 
