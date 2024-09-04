@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope, FaPhone, FaInstagram, FaMapMarkerAlt, FaLinkedin, FaWhatsapp, FaTwitter, FaClock } from 'react-icons/fa'
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 function Footer() {
   
@@ -79,35 +79,35 @@ function Footer() {
             <div className='w-fit pt-[4px]'>
               <h3 className='font-bold md:text-[18px] text-[18px] text-yellow-500 md:pb-[22px] pb-[17px]'>What we do</h3>
 
-              <Link to='/academy/programming-school'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Web development</p>
               </Link>
 
-              <Link to='/academy/product-school'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Database Mgt</p>
               </Link>
 
-              <Link to='/academy/data-school'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Product Design <br/>& UI/UX Design</p>
               </Link>
 
-              <Link to='/academy/project&program-mgt'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Mobile App development</p>
               </Link>
 
-              <Link to='/academy/marketing-school'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Software development</p>
               </Link>
 
-                <Link to='/academy/content-school'>
+                <Link to='/'>
                   <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Cybersecurity</p>
                 </Link>
 
-              <Link to='/academy/artificial-intelligence'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Data Analytics</p>
               </Link>
 
-              <Link to='/academy/artificial-intelligence'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Project Mgt.</p>
               </Link>
 
@@ -120,32 +120,32 @@ function Footer() {
             <div className='w-fit pt-[4px]'>
               <h3 className='font-bold md:text-[18px] text-[18px] text-yellow-500 md:pb-[22px] pb-[17px]'>Technology</h3>
 
-              <Link to='/academy/cybersecurity'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Java, C#, C++, Python</p>
               </Link>
 
-              <Link to='/academy/business-development'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>React, PHP, Springboot, CSS</p>
               </Link>
 
-              <Link to='/academy/operations-management'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>MySql, NodeJS, ExpressJS</p>
               </Link>
 
-              <Link to='/academy/masters-of-business-administration'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>VueJS, Angular, Flutter</p>
               </Link>
 
 
-              <Link to='/academy/humanresource-mgt'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Kotlin, Dart, Swift</p>
               </Link>
 
-              <Link to='/academy/business-development'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'>Azure, PostgreSQL, Etc</p>
               </Link>
 
-              <Link to='/academy/customer-service'>
+              <Link to='/'>
                 <p className='md:pb-[20px] pb-[15px] text-neutral-300 md:text-[15px] text-[14px] hover:underline'></p>
               </Link>
             </div>
