@@ -131,7 +131,13 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
          <section
          className='w-[100vw] pb-[50px] text-center h-fit m-auto mt-[-80px]'>
            <div className='m-auto w-[98vw] md:p-2 p-1  flex flex-wrap justify-between md:gap-[30px] gap-[20px] 2xl:w-[1200px]'>
-            <div className='section-2-container m-auto hover:border-[1px] border-yellow-600 md:h-[170px] h-[130px] bg-white md:w-fit w-[85%] p-4 shadow'>
+            <motion.div
+             initial="hidden"
+             whileInView="visible"
+             viewport={{ once: false }}
+             transition={{ duration: 0.6 }}
+             variants={ScrollRevealVariants}
+            className='section-2-container m-auto hover:border-[1px] border-yellow-600 md:h-[170px] h-[130px] bg-white md:w-fit w-[85%] p-4 shadow'>
                 <div className='gap-4 md:h-[80px] h-[50px] w-[290px] m-auto flex'>
                     <img src={yellowsvg1} alt="" />
                     <h2 className='font-bold md:text-[22px] text-[18px] h-fit mt-[15px] '>Innovation</h2>
@@ -140,10 +146,16 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                 <div className='h-[70px] w-[280px] m-auto  text-left'>
                     <p className='text-[14px]  text-neutral-500 mt-[10px] text-left'>Empowering tomorrow's possibilities through relentless innovation</p>
                 </div>
-            </div>
+            </motion.div>
 
 
-            <div className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[130px] md:w-fit w-[85%] bg-white p-4 shadow'>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              transition={{ duration: 0.6 }}
+              variants={ScrollRevealVariants}
+            className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[130px] md:w-fit w-[85%] bg-white p-4 shadow'>
                 <div className='flex gap-4 md:h-[80px] h-[50px] w-[290px] m-auto'>
                     <img src={yellowsvg2} alt="" />
                     <h2 className='font-bold md:text-[22px] text-[18px] h-[70px] mt-[5px]'>Reliability <br /> & Security</h2>
@@ -153,10 +165,16 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                 <div className='h-[70px] w-[280px] m-auto text-left'>
                     <p className='text-[14px] text-neutral-500 mt-[10px] text-left pr-[10px]'>Ensuring trust through robust reliability and security measures.</p>
                 </div>
-            </div>
+            </motion.div>
 
 
-            <div className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[130px] md:w-fit w-[85%] bg-white px-4 p-4 shadow'>
+            <motion.div
+             initial="hidden"
+             whileInView="visible"
+             viewport={{ once: false }}
+             transition={{ duration: 0.6 }}
+             variants={ScrollRevealVariants}
+            className='section-2-container hover:border-[1px] border-yellow-600 m-auto md:h-[170px] h-[130px] md:w-fit w-[85%] bg-white px-4 p-4 shadow'>
                 <div className='flex gap-4 text-left md:h-[80px] h-[50px] w-[290px] m-auto'>
                     <img src={yellowsvg3} alt="" />
                     <h2 className='font-bold md:text-[22px] text-[18px] h-[70px] mt-[5px] w-[120px]'>Scalability & Growth</h2>
@@ -165,7 +183,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                 <div className='h-[70px] w-[280px] m-auto text-left'>
                     <p className='text-[14px] text-neutral-500 mt-[10px] text-left'>Unleashing limitless potential through scalable solutions and growth.</p>
                 </div>
-            </div>
+            </motion.div>
           </div> 
          </section>
 
@@ -262,8 +280,20 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
          <section
          
          className='px-[5vw] bg-white h-fit pt-[50px] py-[50px] text-center'>
-            <h3 className='text-yellow-600 font-bold md:text-[15px] text-[14px] mb-[20px]'>~ OUR COMPREHENSIVE TECH SOLUTIONS ~</h3>
-            <h1 className='md:text-[43px] text-[24px] font-bold mb-[10px]'>High quality products and services that we offer</h1>
+            <motion.h3
+             initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.6 }}
+                    variants={ScrollRevealVariants}
+            className='text-yellow-600 font-bold md:text-[15px] text-[14px] mb-[20px]'>~ OUR COMPREHENSIVE TECH SOLUTIONS ~</motion.h3>
+            <motion.h1h3
+             initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: false }}
+                    transition={{ duration: 0.6 }}
+                    variants={ScrollRevealVariants}
+            className='md:text-[43px] text-[24px] font-bold mb-[10px]'>High quality products and services that we offer</motion.h1h3>
 
             <motion.div
                    initial="hidden"
