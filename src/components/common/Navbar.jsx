@@ -25,9 +25,9 @@ const Navbar = () => {
   return (
     <div className='bg-black sticky top-0 z-50 border-b-2 border-yellow-500 flex justify-between items-center md:h-[84px] h-[65px] mx-auto px-[10px] text-white'>
       {/* Logo */}
-      <div className='bg-neutral-800 w-[2] border-r-[8px] border-yellow-500 h-full pb-[10px] pl-[10px]'>
-        <h1 className='md:text-[38px] text-[26px] font-bold p-4  text-yellow-500 mt-[-14px]'>Bematron</h1>
-        <p className='text-[12px] bg-yellow-500 font-bold text-black w-[100px] pl-[10px] px-1 md:mt-[-25px] mt-[-20px] mr-[-40px]'>Technologies</p>
+      <div className='bg-neutral-800 w-[2] md:border-r-[8px] border-r-[4px] border-yellow-500 h-full pb-[10px] pl-[10px]'>
+        <h1 className='md:text-[38px] text-[20px] font-bold p-4  text-yellow-500 mt-[-14px]'>Bematron</h1>
+        <p className='md:text-[12px] text-[9px] bg-yellow-500 font-bold text-black w-[100px] pl-[10px] px-1 md:mt-[-25px] mt-[-20px] mr-[-40px]'>Technologies</p>
       </div>
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>

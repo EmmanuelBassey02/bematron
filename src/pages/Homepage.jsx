@@ -130,7 +130,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
              {/* SECTION 2 */}
          <section
          className='w-[100vw] pb-[50px] text-center h-fit m-auto mt-[-80px]'>
-           <div className='m-auto w-[98vw] md:p-2 p-1  flex flex-wrap justify-between md:gap-[30px] gap-[20px]'>
+           <div className='m-auto w-[98vw] md:p-2 p-1  flex flex-wrap justify-between md:gap-[30px] gap-[20px] 2xl:w-[1200px]'>
             <div className='section-2-container m-auto hover:border-[1px] border-yellow-600 md:h-[170px] h-[130px] bg-white md:w-fit w-[85%] p-4 shadow'>
                 <div className='gap-4 md:h-[80px] h-[50px] w-[290px] m-auto flex'>
                     <img src={yellowsvg1} alt="" />
@@ -175,14 +175,14 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
 
          {/* SECTION - 3 ---- ABOUT OUR COMPANY */}
          <section
-         className='px-[5vw] md:py-[100px] py-[50px] flex flex-wrap gap-6'>
+         className='px-[5vw] md:py-[100px] py-[50px] flex flex-wrap gap-6 '>
              <motion.div
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: false }}
                     transition={{ duration: 0.6 }}
                     variants={ScrollRevealVariants}
-             className='bg-neutral-400 border-l-8 border-yellow-600 m-auto md:h-[650px] h-[400px] w-[500px] sm:flex-grow md:flex-grow-0 '>
+             className='bg-neutral-400  border-l-8 border-yellow-600 m-auto md:h-[650px] h-[400px] w-[500px] sm:flex-grow md:flex-grow-0 '>
                 <img src={about} alt="" className='md:h-[590px] h-[390px] md:w-[490px] w-[400px] mt-[-10px] m-auto'/>
              </motion.div>
 
@@ -272,7 +272,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                    transition={{ duration: 0.6 }}
                    variants={ScrollRevealVariants}
             
-            className='px-[20px] h-fit py-[40px] flex flex-wrap gap-[15px]'>
+            className='px-[20px] h-fit py-[40px] flex flex-wrap gap-[15px] 2xl:w-[1200px] m-auto'>
                
                  <div className='border-[1px] border-neutral-300  md:basis-[255px] basis-[230px] flex-grow p-1 h-[320px] m-auto rounded-[10px] shadow'>
                    <div className='h-[150px] text-left w-full hover:overflow-hidden'>
@@ -377,7 +377,8 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
 
                 {/* PROCESS  */}
         <section
-        className='bg-black px-[5vw] w-full  h-[fit] py-[50px] flex flex-wrap gap-'>
+        className='bg-black px-[5vw] w-full  h-[fit] py-[50px] gap-4'>
+            <div className='2xl:w-[1200px] flex flex-wrap m-auto'>
                 <motion.div
                        initial="hidden"
                        whileInView="visible"
@@ -385,7 +386,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                        transition={{ duration: 0.6 }}
                        variants={slideInVariants}
                 
-                className='md:py-[50px] py-[25px] md:p-[30px] p-[15px] bg-yellow-600 h-fit md:w-[400px] w-[300px] m-auto'>
+                className='md:py-[50px] py-[25px] md:p-[30px] p-[15px]  bg-yellow-600 h-fit md:w-[400px] w-[300px] m-auto'>
                     <h3 className='font-bold md:mb-[10px] mb-[5px]'>OUR WORKING PROCESS</h3>
                     <h1 className='md:text-[35px] text-[26px] md:leading-[45px] leading-[30px] font-bold mb-[15px]'>How we work for our customers</h1>
                      <motion.button
@@ -459,33 +460,8 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                      <p className='mt-[10px] text-[14px] text-neutral-400'>We ensure the solution remains functional, secure, and efficient over time, meeting evolving needs and addressing any issues that arise.</p>
                  </motion.div>
              </motion.div>
+             </div>
         </section>
-
-         {/* NEXT PAGE WHEN CLICK ON SEE MORE
-Certainly! Here are short notes on each phase:
-
-Discovery and Planning:
-
-In this phase, the focus is on understanding the client's needs and defining project objectives.
-It involves conducting research, gathering requirements, and creating a detailed project plan.
-The goal is to establish a clear direction for the project and set the foundation for successful execution.
-Deployment and Implementation:
-
-This phase involves executing the project plan and deploying the solution.
-It includes activities such as deployment planning, execution, training, and go-live.
-The emphasis is on ensuring a smooth transition from development to production and making the solution available to end-users.
-Design and Development:
-
-In this phase, the solution is designed and developed based on the defined requirements.
-It encompasses activities such as conceptualizing solutions, UX design, coding, and testing.
-The focus is on creating high-quality, user-friendly solutions that meet client needs and industry standards.
-Support and Maintenance:
-
-This phase involves providing ongoing support and maintenance for the deployed solution.
-It includes activities such as bug fixes, security updates, performance optimizations, and user support.
-The goal is to ensure the solution remains functional, secure, and efficient over time, meeting evolving needs and addressing any issues that arise. */}
-
-
 
 
 
@@ -627,7 +603,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                  transition={{ duration: 0.6 }}
                  variants={slideInVariants}
             
-            className='font-bold text-yellow-600 md:text-[15px] text-[14px] mb-[20px]'>OUR TECHNOLOGY STACK</motion.h3>
+            className='font-bold text-yellow-600 md:text-[15px] text-[14px] md:mb-[20px] mb-[10px]'>OUR TECHNOLOGY STACK</motion.h3>
             <motion.h2
                  initial="hidden"
                  whileInView="visible"
@@ -635,7 +611,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                  transition={{ duration: 0.6 }}
                  variants={slideInVariants}
             
-            className='md:text-[40px] text-[24px] font-bold mb-[20px]'>See the various technologies we work with</motion.h2>
+            className='md:text-[40px] text-[24px] font-bold md:mb-[20px] mb-[15px]'>See the various technologies we work with</motion.h2>
             <motion.p
                  initial="hidden"
                  whileInView="visible"
@@ -643,7 +619,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                  transition={{ duration: 0.6 }}
                  variants={slideInVariants}
             
-            className='md:text-[18px] text-[14px] md:mb-[65px] mb-[45px]'>We leverage cutting-edge programming languages and frameworks in our technology stack, enabling us to 
+            className='md:text-[18px] text-[14px] md:mb-[65px] mb-[25px]'>We leverage cutting-edge programming languages and frameworks in our technology stack, enabling us to 
                 provide tailored software development services and Tech solutions. 
             </motion.p>
             <motion.img
@@ -683,14 +659,14 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
 
                     {/* WHY CHOOSE US? */}
          <section
-           className='px-[5vw] bg-black py-[50px] h-fit'>
+           className='px-[5vw] bg-black md:pt-[50px] pt-[25px] md:pb-[50px] pb-[40px] h-fit'>
              <motion.h1
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false }}
                 transition={{ duration: 0.6 }}
                 variants={ScrollRevealVariants}
-             className='md:text-[30px] text-[22px] text-white font-bold mb-[30px]'>WHY CHOOSE US?</motion.h1>
+             className='md:text-[30px] text-[22px] text-white font-bold 2xl:mb-[70px] mb-[30px] m-auto w-fit'>WHY CHOOSE US?</motion.h1>
 
 
 
@@ -701,7 +677,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
               transition={{ duration: 0.7 }}
               variants={ScrollRevealVariants}
 
-        className='flex flex-wrap gap-[20px] justify-between items-center'>
+        className='flex flex-wrap gap-[20px] justify-between items-center 2xl:w-[1200px] m-auto'>
            <div>
                 <div className='flex gap-2'>
                     <p className=''><FaCheckCircle className='text-[14px] md:text-[17px] text-yellow-600 mt-[4px]'/></p>
@@ -723,27 +699,27 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
 
                 <div className='flex gap-2'>
                     <p className='text-neutral-200'><FaCheckCircle className='text-[14px] md:text-[17px] text-yellow-600 mt-[4px]'/></p>
-                    <p className='text-neutral-300'>We are committed to providing exceptional customer service and support.</p>
+                    <p className='text-neutral-300 md:text-[16px] text-[14px]'>We are committed to providing exceptional customer service and support.</p>
                 </div><br />
 
 
                 
                 <div className='flex gap-2'>
                     <p className='text-neutral-200'><FaCheckCircle className='text-[14px] md:text-[17px] text-yellow-600 mt-[4px]'/></p>
-                    <p className='text-neutral-300'> We understand the importance of delivering value without compromising on quality. </p>
+                    <p className='text-neutral-300 md:text-[16px] text-[14px]'> We understand the importance of delivering value without compromising on quality. </p>
                 </div><br />
 
 
                 <div className='flex gap-2'>
                     <p className='text-neutral-200'><FaCheckCircle className='text-[14px] md:text-[17px] text-yellow-600 mt-[4px]'/></p>
-                    <p className='text-neutral-300'>We believe in transparency in all aspects of our business, including pricing. </p>
+                    <p className='text-neutral-300 md:text-[16px] text-[14px]'>We believe in transparency in all aspects of our business, including pricing. </p>
                 </div><br />
                 
 
 
                 <div className='flex gap-2'>
                     <p className='text-neutral-200'><FaCheckCircle className='text-[14px] md:text-[17px] text-yellow-600 mt-[4px]'/></p>
-                    <p className='text-neutral-300'> Our detailed roadmaps and project coordination ensure on-time delivery.</p>
+                    <p className='text-neutral-300 md:text-[16px] text-[14px]'> Our detailed roadmaps and project coordination ensure on-time delivery.</p>
                 </div><br />
           </div>  
 
@@ -764,7 +740,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                transition={{ duration: 0.8 }}
                variants={ScrollRevealVariants}
         
-        className='md:py-[100px] py-[60px] px-[5vw] gap-8 flex flex-wrap justify-between '>
+        className='md:py-[100px] py-[60px] px-[5vw] gap-[14px] md:gap-[18px] 2xl:gap-[24px] flex flex-wrap justify-between  2xl:w-[1200px] m-auto'>
             <motion.div
                   initial="hidden"
               whileInView="visible"
@@ -863,7 +839,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                  transition={{ duration: 0.8 }}
                  variants={ScrollRevealVariants}
           
-          className='px-[5vw] flex flex-wrap gap-4 pb-[100px] md:pt-[50px] pt-[40px]'>
+                className='px-[5vw] flex flex-wrap gap-4 pb-[100px] md:pt-[50px] pt-[40px]'>
 
              <div className='bg-black md:w-[580px] w-[100%] m-auto h-fit pb-[25px] p-4 md:px-[56px] px-[9px] md:pt-[50px]' style={{backgroundImage: "url('/path/to/your/image.jpg')"}}> 
                     
@@ -906,8 +882,9 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                 viewport={{ once: false }}
                 transition={{ duration: 0.6 }}
                 variants={ScrollRevealVariants}
-          
-          className='md:pt-[100px] rounded-tl-[30px] rounded-tr-[30px] pt-[60px] pb-[100px] px-[1vw] md:px-[5vw] bg-neutral-400 h-fit flex flex-wrap gap-[25px] items-center justify-between'>
+          className='md:pt-[100px] rounded-tl-[30px] rounded-tr-[30px] pt-[60px] pb-[100px] px-[1vw] md:px-[5vw] bg-neutral-400 h-fit '>
+               
+               <div className='flex flex-wrap gap-[25px] items-center justify-center 2xl:w-[1200px] m-auto'>
                 <motion.img
                       initial="hidden"
                       whileInView="visible"
@@ -943,6 +920,7 @@ The goal is to ensure the solution remains functional, secure, and efficient ove
                         </span> 
                     </div>
                 </motion.div>
+                </div>
           </section>
 
 
