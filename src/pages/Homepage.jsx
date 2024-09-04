@@ -87,7 +87,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
 
         {/* SECTION-1  */}
         <section
-        className='bg-custom-image md:pt-[100px] pt-[65px] px-[5vw] pb-[175px]  h-[fit]  bg-cover bg-no-repeat bg-center'  
+        className='bg-custom-image md:pt-[100px] pt-[55px] px-[5vw] md:pb-[175px] pb-[150px]  h-fit  bg-cover bg-no-repeat bg-center'  
         style={{ backgroundImage: `url(${backgroundImage})` }} >
         
            <div className='p-2'>
@@ -96,7 +96,7 @@ import { FaArrowRight, FaRocket, FaCheckCircle, FaUsers, FaUserTie, FaLightbulb,
                  initial="hidden"
                  animate="visible"
                  variants={ContainerVariants}
-                 className='text-neutral-800 font-mono text-center md:p-[8px] p-[6px] bg-[#daa913] rounded-[4px] text-[15px] md:text-[20px] w-fit'> ~ At Bematron we don't just solve problems, we create possibilities ~ </motion.h2><br />
+                 className='text-neutral-800 font-mono text-center md:p-[8px] p-[6px] bg-[#daa913] rounded-[4px] text-[13px] md:text-[20px] w-fit'> ~ At Bematron we don't just solve problems, we create possibilities ~ </motion.h2><br />
 
               <motion.h1
                   variants={nextVariants}
